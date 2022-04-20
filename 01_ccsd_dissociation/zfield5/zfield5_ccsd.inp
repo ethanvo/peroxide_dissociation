@@ -1,4 +1,4 @@
-! CCSD cc-pVTZ PAL8
+! CCSD cc-pVTZ TIGHTSCF PAL8
 %maxcore 5000
 %scf
 efield 0.0, 0.0, 0.009723451905749332

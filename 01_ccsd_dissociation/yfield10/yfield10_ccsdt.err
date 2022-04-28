@@ -1,0 +1,27 @@
+/cm/local/apps/slurm/var/spool/job1840592/slurm_script: line 36: echo: write error: Disk quota exceeded
+/cm/local/apps/slurm/var/spool/job1840592/slurm_script: line 37: echo: write error: Disk quota exceeded
+/cm/local/apps/slurm/var/spool/job1840592/slurm_script: line 38: echo: write error: Disk quota exceeded
+/cm/local/apps/slurm/var/spool/job1840592/slurm_script: line 39: echo: write error: Disk quota exceeded
+/cm/local/apps/slurm/var/spool/job1840592/slurm_script: line 40: echo: write error: Disk quota exceeded
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   g120
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[15940,1],2]
+  Exit code:    64
+--------------------------------------------------------------------------
+[g120:3691533] 7 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[g120:3691533] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[file orca_tools/qcmsg.cpp, line 465]: 
+  .... aborting the run
+

@@ -1,0 +1,15 @@
+/cm/local/apps/slurm/var/spool/job1840596/slurm_script: line 32: echo: write error: Disk quota exceeded
+/cm/local/apps/slurm/var/spool/job1840596/slurm_script: line 36: echo: write error: Disk quota exceeded
+/cm/local/apps/slurm/var/spool/job1840596/slurm_script: line 37: echo: write error: Disk quota exceeded
+/cm/local/apps/slurm/var/spool/job1840596/slurm_script: line 38: echo: write error: Disk quota exceeded
+/cm/local/apps/slurm/var/spool/job1840596/slurm_script: line 39: echo: write error: Disk quota exceeded
+/cm/local/apps/slurm/var/spool/job1840596/slurm_script: line 40: echo: write error: Disk quota exceeded
+--------------------------------------------------------------------------
+No nodes are available for this job, either due to a failure to
+allocate nodes to the job, or allocated nodes being marked
+as unavailable (e.g., down, rebooting, or a process attempting
+to be relocated to another node when none are available).
+--------------------------------------------------------------------------
+[file orca_tools/qcmsg.cpp, line 465]: 
+  .... aborting the run
+

@@ -1,0 +1,30 @@
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   g065
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[g065:895484] 7 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[g065:895484] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   g065
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[g065:895601] 7 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[g065:895601] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[38875,1],2]
+  Exit code:    125
+--------------------------------------------------------------------------
+[file orca_tools/qcmsg.cpp, line 465]: 
+  .... aborting the run
+
